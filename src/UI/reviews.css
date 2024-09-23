@@ -1,0 +1,45 @@
+.pagination-navigation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+  position: relative;
+  z-index: 10;
+}
+
+/* Center align pagination dots */
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+/* Customize the arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 20px;
+  height: 20px;
+  color: #000;
+  margin-top: 155px;
+  z-index: 20;
+  cursor: pointer;
+}
+
+/* Adjust the arrow size */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 16px;
+}
+
+.arrow {
+  position: absolute;
+  width: 300px;
+  height: 64px;
+  background-color: #f7f7f7;
+  -webkit-mask-image: url("https://printify.com/pfh/media/arrow-down-S7NHO6CI.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url("https://printify.com/pfh/media/arrow-down-S7NHO6CI.svg");
+  mask-repeat: no-repeat;
+}
